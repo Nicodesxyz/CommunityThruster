@@ -4,9 +4,21 @@
   --color03: #1c1a19;
   --color04: #c7bebc;
   --color05: #ffffff;
+  --bgcolor: #0b0a0a;
 
   --drop-shadow: (0px 0px 4px hsla(3, 67%, 70%, 0.5));
   /* Gradient --gradient: linear-gradient(20deg, #fbf7f7 -39.19%, #ff4337 140.57%);-*/
+
+  --title1: 50px;
+  --title2: 35px;
+  --title3: 28px;
+  --paragraph: 18px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html,
@@ -18,15 +30,103 @@ body {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  background-color: var(--bgcolor);
+  color: var(--color05);
+  font-family: var(--font-space-grotesk);
+  background-image: url(/bg-grain.png);
+  background-repeat: repeat;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+/*---Spline Animation---*/
+
+.spline-container {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  z-index: 1;
+}
+
+.spline-bg {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+}
+
+.left-anim {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.right-anim {
+  right: 0;
+}
+
+/*---Re usable CSS---*/
+
+.burial {
+  font-family: var(--font-burial);
+}
+
+.grotesk-regular,
+.grotesk-medium,
+.grotesk-bold {
+  font-family: var(--font-space-grotesk);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.just-center {
+  justify-content: center;
+}
+
+.gradient-text {
+  background: linear-gradient(256deg, #fbf7f7 -39.19%, #ff4337 140.57%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0px 0px 4px hsla(3, 67%, 70%, 0.5));
+}
+
+.maintitle {
+  font-size: var(--title1);
+}
+
+/*---First Section---*/
+
+.logo-font {
+  font-size: 20px;
+}
+
+.intro-container {
+  position: absolute;
+  z-index: 5;
+  height: 100vh;
+  width: 100vw;
+}
+
+.intro-text-container {
+  text-align: center;
+  max-width: 650px;
+  text-wrap: pretty;
+  gap: 10px;
+}
+
+.sub-text {
+  gap: 25px;
 }
