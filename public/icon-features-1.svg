@@ -1,0 +1,125 @@
+<svg
+  class="h-5 w-auto md:h-6"
+  fill="none"
+  height="100%"
+  viewBox="0 0 23 22"
+  width="100%"
+  xmlns="http://www.w3.org/2000/svg"
+  color="inherit"
+  name="easy-to-use"
+>
+  <path
+    d="m21.836 5.166-.926-.918-9.27 9.197-2.758-3.363-1.017.815 3.677 4.476z"
+    fill="url(#EasyToUse_svg__a)"
+  ></path>
+  <path
+    d="m7.18 4.947-1.259.727 1.454 2.518 1.26-.726z"
+    fill="url(#EasyToUse_svg__b)"
+  ></path>
+  <path
+    d="M5.019 12.01H2.173v1.552h2.846z"
+    fill="url(#EasyToUse_svg__c)"
+  ></path>
+  <path
+    d="m7.357 17.503-1.455 2.518 1.26.727 1.454-2.518z"
+    fill="url(#EasyToUse_svg__d)"
+  ></path>
+  <path
+    d="m14.432 17.5-1.259.728 1.456 2.517 1.26-.728z"
+    fill="url(#EasyToUse_svg__e)"
+  ></path>
+  <path
+    d="M19.507 12.01h-2.846v1.552h2.846z"
+    fill="url(#EasyToUse_svg__f)"
+  ></path>
+  <path
+    d="m14.654 4.937-1.453 2.519 1.259.726 1.454-2.518z"
+    fill="url(#EasyToUse_svg__g)"
+  ></path>
+  <defs>
+    <linearGradient
+      gradientUnits="userSpaceOnUse"
+      id="EasyToUse_svg__a"
+      x1="7.865"
+      x2="18.707"
+      y1="4.248"
+      y2="17.864"
+    >
+      <stop stop-color="#FFB0AB"></stop>
+      <stop offset="0.464" stop-color="#FF6D63"></stop>
+      <stop offset="1" stop-color="#FF4337"></stop>
+    </linearGradient>
+    <linearGradient
+      gradientUnits="userSpaceOnUse"
+      id="EasyToUse_svg__b"
+      x1="5.921"
+      x2="8.518"
+      y1="5.674"
+      y2="5.519"
+    >
+      <stop stop-color="#FFB0AB"></stop>
+      <stop offset="0.464" stop-color="#FF6D63"></stop>
+      <stop offset="1" stop-color="#FF4337"></stop>
+    </linearGradient>
+    <linearGradient
+      gradientUnits="userSpaceOnUse"
+      id="EasyToUse_svg__c"
+      x1="2.173"
+      x2="3.478"
+      y1="12.009"
+      y2="14.402"
+    >
+      <stop stop-color="#FFB0AB"></stop>
+      <stop offset="0.464" stop-color="#FF6D63"></stop>
+      <stop offset="1" stop-color="#FF4337"></stop>
+    </linearGradient>
+    <linearGradient
+      gradientUnits="userSpaceOnUse"
+      id="EasyToUse_svg__d"
+      x1="5.902"
+      x2="8.499"
+      y1="20.021"
+      y2="20.177"
+    >
+      <stop stop-color="#FFB0AB"></stop>
+      <stop offset="0.464" stop-color="#FF6D63"></stop>
+      <stop offset="1" stop-color="#FF4337"></stop>
+    </linearGradient>
+    <linearGradient
+      gradientUnits="userSpaceOnUse"
+      id="EasyToUse_svg__e"
+      x1="13.173"
+      x2="15.77"
+      y1="18.228"
+      y2="18.07"
+    >
+      <stop stop-color="#FFB0AB"></stop>
+      <stop offset="0.464" stop-color="#FF6D63"></stop>
+      <stop offset="1" stop-color="#FF4337"></stop>
+    </linearGradient>
+    <linearGradient
+      gradientUnits="userSpaceOnUse"
+      id="EasyToUse_svg__f"
+      x1="16.661"
+      x2="17.966"
+      y1="12.009"
+      y2="14.402"
+    >
+      <stop stop-color="#FFB0AB"></stop>
+      <stop offset="0.464" stop-color="#FF6D63"></stop>
+      <stop offset="1" stop-color="#FF4337"></stop>
+    </linearGradient>
+    <linearGradient
+      gradientUnits="userSpaceOnUse"
+      id="EasyToUse_svg__g"
+      x1="13.2"
+      x2="15.797"
+      y1="7.456"
+      y2="7.611"
+    >
+      <stop stop-color="#FFB0AB"></stop>
+      <stop offset="0.464" stop-color="#FF6D63"></stop>
+      <stop offset="1" stop-color="#FF4337"></stop>
+    </linearGradient>
+  </defs>
+</svg>

@@ -9,10 +9,11 @@
   --drop-shadow: (0px 0px 4px hsla(3, 67%, 70%, 0.5));
   /* Gradient --gradient: linear-gradient(20deg, #fbf7f7 -39.19%, #ff4337 140.57%);-*/
 
-  --title1: 50px;
+  --title1: 60px;
   --title2: 35px;
   --title3: 28px;
   --paragraph: 18px;
+  --button: 16px;
 }
 
 * {
@@ -62,8 +63,25 @@ a {
   transform: scaleX(-1);
 }
 
+.left-anim {
+  top: -50px;
+  left: -50px;
+}
+
 .right-anim {
-  right: 0;
+  top: -50px;
+  right: -50px;
+}
+
+/*---Element---*/
+
+.bg-line {
+  z-index: 3;
+  position: absolute;
+  left: 42%;
+  top: -1250px;
+  transform: translateX(-60%);
+  rotate: -45deg;
 }
 
 /*---Re usable CSS---*/
@@ -103,14 +121,51 @@ a {
   filter: drop-shadow(0px 0px 4px hsla(3, 67%, 70%, 0.5));
 }
 
+.gradient-text-strokes {
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke: 3px transparent;
+  background-clip: text;
+  background: linear-gradient(314deg, #ffd7d6 -6.6%, #ff8580 102.09%);
+  -webkit-background-clip: text;
+}
+
 .maintitle {
   font-size: var(--title1);
+}
+
+.sectiontitle {
+  font-size: var(--title2);
+}
+
+.main-button {
+  background: url("/grain-button.png") 0 0/40px 40px repeat,
+    linear-gradient(135deg, #ffb6b4 0%, #ff8882 49.48%, #fe6c63 100%)
+      padding-box,
+    linear-gradient(135deg, #ff4337 0%, #ff6d63 46.35%, #ffb0ab 100%) border-box;
+  background-repeat: repeat;
+  background-blend-mode: overlay, normal;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  box-shadow: 0 0 2px 0 #ff6157;
+  font-size: var(--button);
+  padding: 6px 40px;
+}
+
+.gap-20 {
+  gap: 20px;
 }
 
 /*---First Section---*/
 
 .logo-font {
   font-size: 20px;
+}
+
+.section-intro {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
 }
 
 .intro-container {
@@ -122,11 +177,25 @@ a {
 
 .intro-text-container {
   text-align: center;
-  max-width: 650px;
+  max-width: 800px;
   text-wrap: pretty;
   gap: 10px;
 }
 
 .sub-text {
-  gap: 25px;
+  gap: 30px;
+  p {
+    max-width: 650px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .left-anim {
+    left: -150px;
+  }
+
+  .right-anim {
+    right: -150px;
+  }
 }
