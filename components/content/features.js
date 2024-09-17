@@ -37,7 +37,12 @@ const Features = () => {
               data-aos="fade-up"
               data-aos-duration="400"
             >
-              <Image src="/icon-features-1.svg" width={24} height={24} />
+              <Image
+                src="/icon-features-1.svg"
+                width={24}
+                height={24}
+                alt="icon"
+              />
               <h4 className="burial">Tailor-made Analytics</h4>
               <p>
                 Manage-able dashboard allowing you to focus ont the data you
@@ -50,7 +55,12 @@ const Features = () => {
               data-aos="fade-up"
               data-aos-duration="800"
             >
-              <Image src="/icon-features-2.svg" width={24} height={24} />
+              <Image
+                src="/icon-features-2.svg"
+                width={24}
+                height={24}
+                alt="icon"
+              />
               <h4 className="burial">Tailor-made Analytics</h4>
               <p>
                 Manage-able dashboard allowing you to focus ont the data you
@@ -63,7 +73,12 @@ const Features = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <Image src="/icon-features-3.svg" width={24} height={24} />
+              <Image
+                src="/icon-features-3.svg"
+                width={24}
+                height={24}
+                alt="icon"
+              />
               <h4 className="burial">Tailor-made Analytics</h4>
               <p>
                 Manage-able dashboard allowing you to focus ont the data you
@@ -76,7 +91,12 @@ const Features = () => {
               data-aos="fade-up"
               data-aos-duration="1600"
             >
-              <Image src="/icon-features-4.svg" width={24} height={24} />
+              <Image
+                src="/icon-features-4.svg"
+                width={24}
+                height={24}
+                alt="icon"
+              />
               <h4 className="burial">Tailor-made Analytics</h4>
               <p>
                 Manage-able dashboard allowing you to focus ont the data you
@@ -88,7 +108,12 @@ const Features = () => {
       </div>
 
       <div className="orbit-ring">
-        <Image src="/orbitring.svg" width={600} height={600} />
+        <Image
+          src="/orbitring.svg"
+          width={600}
+          height={600}
+          alt="background_image"
+        />
       </div>
     </section>
   );

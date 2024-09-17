@@ -8,7 +8,7 @@ const Intro = () => {
       <div className="intro-container flex  align-center just-center">
         <div className="intro-text-container flex-col">
           <div className="flex align-center just-center ">
-            <Image src="/Logo.png" width={50} height={50} />
+            <Image src="/Logo.png" width={50} height={50} alt="logo" />
             <h1 className="burial logo-font">THRUST APP COMMUNITY</h1>
           </div>
 
@@ -33,7 +33,12 @@ const Intro = () => {
       </div>
 
       <div className="bg-line">
-        <Image src="/lightbeam.svg" width={1300} height={1300} />
+        <Image
+          src="/lightbeam.svg"
+          width={1300}
+          height={1300}
+          alt="background_image"
+        />
       </div>
       <Particules />
     </section>
