@@ -7,7 +7,7 @@ const Intro = () => {
     <section className="section-intro ">
       <div className="intro-container flex  align-center just-center">
         <div className="intro-text-container flex-col">
-          <div className="flex align-center just-center fade ">
+          <div className="flex align-center just-center ">
             <Image src="/Logo.png" width={50} height={50} />
             <h1 className="burial logo-font">THRUST APP COMMUNITY</h1>
           </div>
@@ -17,7 +17,7 @@ const Intro = () => {
               ALL IN ONE DEFI APP <br /> BUILT
               <span className="gradient-text"> BY TITANS</span>
             </h2>
-            <p className="fade-2">
+            <p className="">
               Explore diverse liquidity pools that offer ample opportunities for
               yield and asset growth. Thruster DeFi, viewed from the user's
               perspective, enables seamless access to opportunities with the

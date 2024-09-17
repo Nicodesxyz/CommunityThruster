@@ -164,6 +164,15 @@ main {
   gap: 20px;
 }
 
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /*---First Section---*/
 
 .logo-font {
@@ -188,6 +197,8 @@ main {
   max-width: 800px;
   text-wrap: pretty;
   gap: 10px;
+  opacity: 0;
+  animation: fade 1s ease-out forwards;
 }
 
 .sub-text {
