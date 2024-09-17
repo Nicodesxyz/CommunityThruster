@@ -206,6 +206,10 @@ main {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  background-image: url("/bottom_landscape-2.png");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center 450px;
 }
 
 .features-content-container {

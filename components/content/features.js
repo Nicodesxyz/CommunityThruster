@@ -90,10 +90,6 @@ const Features = () => {
       <div className="orbit-ring">
         <Image src="/orbitring.svg" width={600} height={600} />
       </div>
-
-      <div className="landscape-bg">
-        <img src="/bottom_landscape-2.png" />
-      </div>
     </section>
   );
 };
