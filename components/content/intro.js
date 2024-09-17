@@ -19,9 +19,9 @@ const Intro = () => {
             </h2>
             <p className="">
               Explore diverse liquidity pools that offer ample opportunities for
-              yield and asset growth. Thruster DeFi, viewed from the user's
-              perspective, enables seamless access to opportunities with the
-              community tool.
+              yield and asset growth. Thruster DeFi, viewed from the
+              user`&apos;`s perspective, enables seamless access to
+              opportunities with the community tool.
             </p>
 
             <div className="flex gap-20 fade-3">
