@@ -6,11 +6,10 @@ import About from "@/components/content/about.js";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
+    <div>
+      <main>
         <Intro />
         <Features />
-        <About />
       </main>
     </div>
   );

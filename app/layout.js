@@ -13,7 +13,7 @@ const spaceGrotesk = localFont({
 });
 
 export const metadata = {
-  title: "Community Thruster",
+  title: "Community Thrust App",
   description: "Thruster Community DEFI App",
 };
 

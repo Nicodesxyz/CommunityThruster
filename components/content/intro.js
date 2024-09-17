@@ -4,29 +4,29 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <section className="section-intro">
+    <section className="section-intro ">
       <div className="intro-container flex  align-center just-center">
         <div className="intro-text-container flex-col">
-          <div className="flex align-center just-center">
+          <div className="flex align-center just-center fade ">
             <Image src="/Logo.png" width={50} height={50} />
             <h1 className="burial logo-font">THRUST APP COMMUNITY</h1>
           </div>
 
-          <div className="sub-text flex-col align-center just-center">
-            <h2 className="maintitle burial">
+          <div className="sub-text flex-col align-center just-center fade">
+            <h2 className="maintitle burial fade ">
               ALL IN ONE DEFI APP <br /> BUILT
               <span className="gradient-text"> BY TITANS</span>
             </h2>
-            <p>
+            <p className="fade-2">
               Explore diverse liquidity pools that offer ample opportunities for
               yield and asset growth. Thruster DeFi, viewed from the user's
               perspective, enables seamless access to opportunities with the
               community tool.
             </p>
 
-            <div className="flex gap-20">
+            <div className="flex gap-20 fade-3">
               <Button text="Launch App" link="/" target="_blank" />
-              <Button text="Explore" link="/" />
+              <Button text="Explore" link="#features" />
             </div>
           </div>
         </div>
