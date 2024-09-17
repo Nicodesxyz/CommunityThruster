@@ -49,9 +49,6 @@ main {
 }
 
 /*---Spline Animation---*/
-.spline-container {
-  transition: opacity 0.5s ease-in-out;
-}
 
 .spline-container {
   position: relative;
@@ -64,6 +61,8 @@ main {
   position: absolute;
   width: 800px;
   height: 800px;
+  opacity: 0;
+  animation: fade 4s ease-out forwards;
 }
 
 .left-anim {
