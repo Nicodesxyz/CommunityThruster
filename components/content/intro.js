@@ -9,7 +9,7 @@ const Intro = () => {
         <div className="intro-text-container flex-col">
           <div className="flex align-center just-center ">
             <Image src="/Logo.png" width={50} height={50} alt="logo" />
-            <h1 className="burial logo-font">THRUST APP COMMUNITY</h1>
+            <h1 className="burial logo-font">Thruster Community Tools</h1>
           </div>
 
           <div className="sub-text flex-col align-center just-center fade">
@@ -19,9 +19,9 @@ const Intro = () => {
             </h2>
             <p className="">
               Explore diverse liquidity pools that offer ample opportunities for
-              yield and asset growth. Thruster DeFi, viewed from the
-              user`&apos;`s perspective, enables seamless access to
-              opportunities with the community tool.
+              yield and asset growth. Thruster DeFi, viewed from the user&apos;s
+              perspective, enables seamless access to opportunities with the
+              community tool.
             </p>
 
             <div className="flex gap-20 fade-3">

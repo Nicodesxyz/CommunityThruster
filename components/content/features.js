@@ -14,7 +14,9 @@ const Features = () => {
       <div className="features-content-container">
         <div className="flex-col just-center align-center features-content">
           <div className="flex-col align-center gap-20" data-aos="fade-down">
-            <h3 className="maintitle gradient-text-strokes">WHY THRUST APP</h3>
+            <h3 className="maintitle gradient-text-strokes">
+              WHY COMMUNITY TOOLS
+            </h3>
             <p>
               This app embodies the collective efforts of DAO members dedicated
               to enhancing the DeFi experience on Thruster. Leveraging real-time

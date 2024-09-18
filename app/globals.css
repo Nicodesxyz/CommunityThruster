@@ -46,6 +46,10 @@ a {
 
 main {
   overflow: hidden;
+  background-image: url("/bottom_landscape-2.png");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center 1400px;
 }
 
 /*---Spline Animation---*/
@@ -172,6 +176,11 @@ main {
   }
 }
 
+.copyright {
+  opacity: 0.5;
+  margin-left: 50px;
+}
+
 /*---First Section---*/
 
 .logo-font {
@@ -213,13 +222,9 @@ main {
 .features-section {
   text-align: center;
   padding: 3rem 0;
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
   position: relative;
-  background-image: url("/bottom_landscape-2.png");
-  background-repeat: no-repeat;
-  background-size: 100vw;
-  background-position: center 450px;
 }
 
 .features-content-container {
@@ -272,4 +277,23 @@ main {
   .right-anim {
     right: -150px;
   }
+}
+
+/*---Footer---*/
+
+footer {
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
+  height: 10vh;
+}
+
+.footer-container {
+  justify-content: space-between;
+  padding: 0 5rem 3rem 5rem;
+  align-items: center;
+}
+
+.nav-container {
+  gap: 10px;
 }
