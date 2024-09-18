@@ -13,8 +13,9 @@ const spaceGrotesk = localFont({
 });
 
 export const metadata = {
-  title: "Community Thrust App",
-  description: "Thruster Community DEFI App",
+  title: "Thruster Community Tools",
+  description:
+    "DEFI tool built by the Thruster community—enjoy an all-in-one solution to never miss yield and asset growth opportunities.",
 };
 
 export default function RootLayout({ children }) {
