@@ -49,7 +49,7 @@ main {
   background-image: url("/bottom_landscape-2.png");
   background-repeat: no-repeat;
   background-size: 100vw;
-  background-position: center 1400px;
+  background-position: center bottom;
 }
 
 /*---Spline Animation---*/
