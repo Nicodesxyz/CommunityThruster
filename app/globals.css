@@ -213,7 +213,7 @@ main {
   gap: 30px;
   p {
     max-width: 650px;
-    font-size: 18px;
+    font-size: var(--paragraph);
   }
 }
 
@@ -296,4 +296,70 @@ footer {
 
 .nav-container {
   gap: 10px;
+}
+
+@media (max-width: 990px) {
+  :root {
+    --title1: 30px;
+    --title2: 35px;
+    --title3: 28px;
+    --paragraph: 16px;
+    --button: 16px;
+  }
+
+  .spline-bg {
+    display: none;
+  }
+
+  .logo-font {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .sub-text {
+    padding: 0 2rem;
+  }
+
+  .main-button {
+    white-space: nowrap;
+  }
+
+  .btn-container {
+    flex-direction: column;
+  }
+
+  .features-section {
+    height: 1400px;
+  }
+
+  .grid-feature {
+    grid-template-columns: repeat(1, 250px);
+  }
+  .footer-container {
+    flex-direction: column-reverse;
+
+    justify-content: center;
+    align-items: center;
+    .copyright {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  footer {
+    height: 180px;
+  }
+  .footer-right-container {
+    flex-direction: column-reverse;
+    .nav-container {
+      flex-direction: column;
+    }
+  }
+
+  .logo-container {
+    margin-left: -20px;
+  }
+
+  main {
+    background-image: none;
+  }
 }

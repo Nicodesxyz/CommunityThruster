@@ -1,9 +1,9 @@
 // ReusableButton.js
 import React from "react";
 
-const Button = ({ text, link }) => {
+const Button = ({ target, text, link }) => {
   return (
-    <a href={link} rel="noopener noreferrer">
+    <a target={target} href={link} rel="noopener noreferrer">
       <button className="main-button">{text}</button>
     </a>
   );

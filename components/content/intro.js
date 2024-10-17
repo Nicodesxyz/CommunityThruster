@@ -24,7 +24,7 @@ const Intro = () => {
               community tool.
             </p>
 
-            <div className="flex gap-20 fade-3">
+            <div className="btn-container flex gap-20 fade-3 ">
               <Button text="Launch App" link="/" target="_blank" />
               <Button text="Explore" link="#features" />
             </div>
