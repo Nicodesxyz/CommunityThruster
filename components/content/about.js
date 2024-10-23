@@ -15,7 +15,7 @@ const About = () => {
           project, uniting top ambassadors dedicated to advancing every aspect
           of the ecosystem. Our team focuses on technical support, development,
           marketing, and building strategic partnerships to ensure ongoing
-          growth and improvement. As the project continues to expand, we’re
+          growth and improvement. As the project continues to expand, we&apos;re
           always seeking skilled professionals to join our team and contribute
           to our success.
         </p>
@@ -169,8 +169,8 @@ const About = () => {
         </h3>
 
         <h3 class="steptitle max-940  fade-2">
-          4. Become a Titan: After one month, if the Titans vote for you, you’ll
-          officially become one of us!
+          4. Become a Titan: After one month, if the Titans vote for you,
+          you&apos;ll officially become one of us!
         </h3>
       </div>
 
@@ -183,7 +183,7 @@ const About = () => {
           Thruster, you can provide liquidity, earn fees by contributing to
           existing pools, or seamlessly swap any tokens on BLAST through a wide
           range of liquidity pools. You can also create your own pool with any
-          token pair, customized to fit your project’s needs.
+          token pair, customized to fit your project&apos;s needs.
         </p>
         <Button
           text="Start using Thruster"
