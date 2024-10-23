@@ -179,7 +179,7 @@ const About = () => {
         <p className="max-940 p-mobile ">
           Thruster is the leading decentralized exchange (DEX) on the BLAST
           blockchain, serving as the primary liquidity hub and accounting for
-          approximately 80% of the network's Total Value Locked (TVL). On
+          approximately 80% of the network&apos;s Total Value Locked (TVL). On
           Thruster, you can provide liquidity, earn fees by contributing to
           existing pools, or seamlessly swap any tokens on BLAST through a wide
           range of liquidity pools. You can also create your own pool with any

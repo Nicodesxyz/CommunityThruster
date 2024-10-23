@@ -77,8 +77,8 @@ const Features = () => {
             >
               <h4 className="burial">More Features</h4>
               <p>
-                We'll add more features based on contributions and community
-                feedback!
+                We&apos;ll add more features based on contributions and
+                community feedback!
               </p>
             </div>
           </div>
