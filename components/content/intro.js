@@ -25,7 +25,9 @@ const Intro = () => {
             </p>
 
             <div className="btn-container flex gap-20 fade-3 ">
-              <Button text="Launch App" link="/" target="_blank" />
+              <a>
+                <button className="disabled-btn">Launch App (Soon)</button>
+              </a>
               <Button text="Explore" link="#features" />
             </div>
           </div>

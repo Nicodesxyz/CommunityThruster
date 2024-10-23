@@ -16,14 +16,6 @@ const Footer = () => {
         </div>
 
         <div className="footer-right-container flex gap-20 align-center">
-          <div className="nav-container flex">
-            <Button
-              text="Start using Thruster"
-              link="https://app.thruster.finance/ref/VYPE0F"
-              target="_blank"
-            />
-          </div>
-
           <div className="social-container">
             <a target="_blank" href="https://github.com/ThrusterTitan">
               <Image src="/git.svg" width={40} height={40} alt="social-icon" />

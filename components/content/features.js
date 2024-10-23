@@ -18,11 +18,11 @@ const Features = () => {
               WHY COMMUNITY TOOLS
             </h3>
             <p>
-              This app embodies the collective efforts of DAO members dedicated
-              to enhancing the DeFi experience on Thruster. Leveraging real-time
-              data streams, it provides users with a comprehensive view of
-              liquidity pools and opportunities. A powerful, all-in-one tool
-              built by the community, for the community.
+              This app will embody the collective efforts of DAO members
+              dedicated to enhancing the DeFi experience on Thruster. Leveraging
+              real-time data streams, it provides users with a comprehensive
+              view of liquidity pools and opportunities. A powerful, all-in-one
+              tool built by the community, for the community.
             </p>
           </div>
         </div>
@@ -39,16 +39,10 @@ const Features = () => {
               data-aos="fade-up"
               data-aos-duration="400"
             >
-              <Image
-                src="/icon-features-1.svg"
-                width={24}
-                height={24}
-                alt="icon"
-              />
-              <h4 className="burial">Tailor-made Analytics</h4>
+              <h4 className="burial">LP Analyzer</h4>
               <p>
-                Manage-able dashboard allowing you to focus ont the data you
-                seeking
+                Get easy insights into liquidity pools, track performance, fees,
+                and impermanent loss from a user-first view.
               </p>
             </div>
 
@@ -57,16 +51,10 @@ const Features = () => {
               data-aos="fade-up"
               data-aos-duration="800"
             >
-              <Image
-                src="/icon-features-2.svg"
-                width={24}
-                height={24}
-                alt="icon"
-              />
-              <h4 className="burial">Tailor-made Analytics</h4>
+              <h4 className="burial">Governance Tracking</h4>
               <p>
-                Manage-able dashboard allowing you to focus ont the data you
-                seeking
+                Keep up with proposals and votes, staying updated on key
+                governance decisions.
               </p>
             </div>
 
@@ -75,16 +63,10 @@ const Features = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <Image
-                src="/icon-features-3.svg"
-                width={24}
-                height={24}
-                alt="icon"
-              />
-              <h4 className="burial">Tailor-made Analytics</h4>
+              <h4 className="burial">Token Bubble Map</h4>
               <p>
-                Manage-able dashboard allowing you to focus ont the data you
-                seeking
+                Visualize token movements and whale activities with a clear,
+                interactive map.
               </p>
             </div>
 
@@ -93,16 +75,10 @@ const Features = () => {
               data-aos="fade-up"
               data-aos-duration="1600"
             >
-              <Image
-                src="/icon-features-4.svg"
-                width={24}
-                height={24}
-                alt="icon"
-              />
-              <h4 className="burial">Tailor-made Analytics</h4>
+              <h4 className="burial">More Features</h4>
               <p>
-                Manage-able dashboard allowing you to focus ont the data you
-                seeking
+                We'll add more features based on contributions and community
+                feedback!
               </p>
             </div>
           </div>
