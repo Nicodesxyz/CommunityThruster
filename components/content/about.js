@@ -132,7 +132,7 @@ const About = () => {
           2. Join & Grab your roles in Discord
         </h3>
         <div className="round-icon">
-          <a>
+          <a href="https://discord.gg/rePjQU7m" target="_blank">
             <Image
               src="/dc-icon.svg"
               width={40}
