@@ -30,7 +30,7 @@ const Features = () => {
         <div className="grid-container">
           <div className="align-center">
             <h3 className="sectiontitle gradient-text-strokes fade-2">
-              CURRENT FEATURES
+              FUTURE FEATURES
             </h3>
           </div>
           <div className="grid-feature">
@@ -39,11 +39,14 @@ const Features = () => {
               data-aos="fade-up"
               data-aos-duration="400"
             >
-              <h4 className="burial">LP Analyzer</h4>
-              <p>
-                Get easy insights into liquidity pools, track performance, fees,
-                and impermanent loss from a user-first view.
-              </p>
+              <h4 className="burial  text-center">LP Analyzer</h4>
+
+              <div className="feature-p">
+                <p className=" text-center">
+                  Get easy insights into liquidity pools, track performance and
+                  fees from a user-first view.
+                </p>
+              </div>
             </div>
 
             <div
@@ -51,11 +54,13 @@ const Features = () => {
               data-aos="fade-up"
               data-aos-duration="800"
             >
-              <h4 className="burial">Governance Tracking</h4>
-              <p>
-                Keep up with proposals and votes, staying updated on key
-                governance decisions.
-              </p>
+              <h4 className="burial  text-center">Governance</h4>
+              <div className="feature-p">
+                <p className=" text-center">
+                  Keep up with proposals and votes, staying updated on key
+                  decisions.
+                </p>
+              </div>
             </div>
 
             <div
@@ -63,11 +68,14 @@ const Features = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <h4 className="burial">Token Bubble Map</h4>
-              <p>
-                Visualize token movements and whale activities with a clear,
-                interactive map.
-              </p>
+              <h4 className="burial text-center">Token Bubble Map</h4>
+
+              <div className="feature-p">
+                <p className=" text-center">
+                  Visualize token movements and whale activities with a clear,
+                  interactive map.
+                </p>
+              </div>
             </div>
 
             <div
@@ -75,11 +83,14 @@ const Features = () => {
               data-aos="fade-up"
               data-aos-duration="1600"
             >
-              <h4 className="burial">More Features</h4>
-              <p>
-                We&apos;ll add more features based on contributions and
-                community feedback!
-              </p>
+              <h4 className="burial text-center">More Features</h4>
+
+              <div className="feature-p">
+                <p className=" text-center">
+                  We&apos;ll add more features based on contributions and
+                  community feedback!
+                </p>
+              </div>
             </div>
           </div>
         </div>

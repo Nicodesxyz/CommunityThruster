@@ -17,8 +17,17 @@ const Footer = () => {
 
         <div className="footer-right-container flex gap-20 align-center">
           <div className="social-container">
-            <a target="_blank" href="https://github.com/ThrusterTitan">
-              <Image src="/git.svg" width={40} height={40} alt="social-icon" />
+            <a
+              className="dc-bottom"
+              target="_blank"
+              href="https://discord.gg/rePjQU7m"
+            >
+              <Image
+                src="/dc-icon.svg"
+                width={40}
+                height={40}
+                alt="social-icon"
+              />
             </a>
             <a target="_blank" href="https://x.com/ThrusterTitans">
               <Image src="/x.svg" width={40} height={40} alt="social-icon" />

@@ -44,6 +44,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: var(--paragraph);
+}
+
 main {
   overflow: hidden;
   background-image: url("/bottom_landscape.webp");
@@ -214,6 +218,10 @@ main {
   text-align: center;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 /*---First Section---*/
 
 .logo-font {
@@ -250,22 +258,24 @@ main {
   }
 }
 
+.feature-p {
+  height: 130px;
+  display: flex;
+}
 /*----Second-section----*/
 
 .features-section {
   text-align: center;
   padding: 3rem 0;
-  height: 90vh;
+  height: auto;
   overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .features-content-container {
-  position: absolute;
-  z-index: 5;
-  left: 50%;
-  top: 30%;
-  transform: translate(-50%, -30%);
+  max-width: 940px;
 }
 
 .grid-container {
@@ -343,23 +353,19 @@ main {
 }
 
 .round-icon {
-  box-shadow: 0 0 2px 0 #ff6157;
-  height: 150px;
-  width: 150px;
+  box-shadow: 0 0 4px 0 #ff6157;
+  height: 60px;
+  width: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   border-radius: 50%;
-  animation: pulse-box-shadow 3s infinite ease-in-out;
 }
-@keyframes pulse-box-shadow {
-  0%,
-  100% {
-    box-shadow: 0 0 2px 0 #ff6157;
-  }
-  50% {
-    box-shadow: 0 0 8px 0 #ff6157;
-  }
+
+.round-icon:hover,
+.dc-bottom {
+  filter: brightness(0) invert(1);
 }
 
 .round-icon:nth-child(1) {
@@ -402,6 +408,54 @@ main {
   gap: 30px;
   margin-bottom: 100px;
 }
+
+.join-img-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    object-fit: contain;
+  }
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; /* Width of each box */
+  height: 250px; /* Adjust height as needed */
+  transition: transform 0.3s;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 180px;
+
+  gap: 10px;
+}
+.swiper-pagination-bullet-active {
+  background: var(--color01) !important;
+}
+
+.swiper-pagination-bullet {
+  border: 0.5px solid var(--color01);
+}
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none !important;
+}
+
 /*---Footer---*/
 
 footer {
