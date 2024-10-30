@@ -120,7 +120,7 @@ const About = () => {
       <div className="z-5 flex-col align-center join-section">
         <div className="flex-col align-center join-section">
           <h3 className="sectiontitle gradient-text-strokes">
-            HOW TO JOIN THE TITANS JOIN THROUGH OUR TAP PROGRAM
+            HOW TO JOIN THE TITANS THROUGH OUR TAP PROGRAM
           </h3>
           <h3 className="steptitle fade-2">
             1. Choose Your Area: Select the field that interests you.
