@@ -291,6 +291,15 @@ main {
   margin-left: 20px;
 }
 
+.grid-why {
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: repeat(4, 200px);
+  gap: 40px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
 .grid-child {
   text-align: left;
   gap: 10px;
@@ -510,8 +519,26 @@ footer {
   }
 
   .grid-feature {
+    grid-template-columns: repeat(1, 100%);
+    margin-left: 0;
+  }
+
+  .grid-why {
     grid-template-columns: repeat(1, 250px);
     margin-left: 0;
+  }
+
+  .feature-p {
+    padding: 0 2rem;
+    height: 70px;
+  }
+
+  .features-content {
+    padding: 0 2rem;
+  }
+
+  .features-section {
+    height: auto;
   }
   .footer-container {
     flex-direction: column-reverse;
